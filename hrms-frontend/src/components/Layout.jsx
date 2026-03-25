@@ -1,18 +1,48 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Layout({ children }) {
   return (
     <div className="min-h-screen bg-gray-100">
-      <nav className="bg-white shadow px-6 py-4 flex justify-between">
-        <h1 className="text-xl font-semibold">HRMS Lite</h1>
-        <div className="space-x-4">
-          <Link to="/" className="hover:text-blue-600">Employees</Link>
-          <Link to="/attendance" className="hover:text-blue-600">
-            Attendance
-          </Link>
-        </div>
+      
+      {/* Navbar */}
+      <nav className="bg-white shadow p-4 flex gap-6">
+        
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? "font-semibold text-blue-600"
+              : "font-semibold text-gray-600"
+          }
+        >
+          Dashboard
+        </NavLink>
+
+        <NavLink
+          to="/employees"
+          className={({ isActive }) =>
+            isActive
+              ? "font-semibold text-blue-600"
+              : "font-semibold text-gray-600"
+          }
+        >
+          Employees
+        </NavLink>
+
+        <NavLink
+          to="/attendance"
+          className={({ isActive }) =>
+            isActive
+              ? "font-semibold text-blue-600"
+              : "font-semibold text-gray-600"
+          }
+        >
+          Attendance
+        </NavLink>
+
       </nav>
 
+      {/* Page Content */}
       <div className="p-6">{children}</div>
     </div>
   );
