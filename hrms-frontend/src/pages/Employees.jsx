@@ -40,8 +40,10 @@ function Employees() {
               className="flex justify-between p-4 border-b"
             >
               <div>
+                <p className="font-medium">ID: {emp.id}</p>
                 <p className="font-medium">{emp.full_name}</p>
                 <p className="text-sm text-gray-500">{emp.email}</p>
+                <p className="text-sm text-gray-500">{emp.department}</p>
               </div>
 
               <button
