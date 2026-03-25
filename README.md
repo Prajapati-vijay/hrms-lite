@@ -98,7 +98,7 @@ The application focuses on clean UI, proper backend validation, and production-r
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/hrms-lite.git
+git clone https://github.com/Prajapati-vijay/hrms-lite.git
 cd hrms-lite
 ```
 ### 2️⃣ Backend Setup
@@ -150,14 +150,13 @@ CORS enabled for frontend-backend communication
 
 ## 📸 Screenshots
 ### Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.PNG)
 
 ### Employees
-![Employees](./screenshots/employees.png)
+![Employees](./screenshots/employees.PNG)
 
 ### Attendance
-![Attendance](./screenshots/attendance.png)
+![Attendance](./screenshots/attendance.PNG)
 
 ### 👨‍💻 Author
-Vijay Prajapati
-Senior Software Engineer | Full stack developer
+Vijay Prajapati | Senior Software Engineer | Full stack developer
