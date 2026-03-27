@@ -7,7 +7,7 @@ A lightweight Human Resource Management System (HRMS Lite) built using React and
 ## 🌐 Live Demo
 
 - 🔗 Frontend: https://hrms-lite-eta-nine.vercel.app/ 
-- 🔗 Backend API: https://hrms-lite-1-t72g.onrender.com/api/  
+- 🔗 Backend API: https://vijay286.pythonanywhere.com/api/
 
 ---
 
